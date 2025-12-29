@@ -1,7 +1,8 @@
 import axios from "axios";
 
-const backendUrl = "http://localhost:8001";
+const backendUrl = process.env.REACT_APP_BACK_API;
 
+console.log('backendUrl',backendUrl)
 export async function loginUser(formData) {
   try {
     const response = await axios.post(
