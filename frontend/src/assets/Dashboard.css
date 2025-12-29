@@ -1,0 +1,44 @@
+.headingTitle{
+    color: rgb(186, 116, 83);
+    font-size: 23px;
+}
+.dashboardBody{
+    text-align: center;
+}
+
+.cards {
+    height: 130px;               
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px 1px rgb(33, 72, 201);
+    display: flex;               
+    align-items: center;         
+    justify-content: center;       
+    text-align: center;    
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.cards h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.opdCamp{
+    background-color:rgb(29, 160, 29) ;
+}
+.BMDCamp{
+    background-color:rgb(63, 150, 167) ;
+}
+.RXTracker{
+    background-color:rgb(153, 117, 117) ;
+}
+.Posters{
+    background-color:rgb(61, 119, 84) ;
+}
+.POB{
+    background-color:rgb(71, 100, 146) ;
+}
+.Reports{
+    background-color:rgb(59, 64, 102) ;
+}
+
