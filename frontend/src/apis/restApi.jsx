@@ -6,7 +6,7 @@ console.log('backendUrl',backendUrl)
 export async function loginUser(formData) {
   try {
     const response = await axios.post(
-      `${backendUrl}/api/loginUser`,
+      `https://pharma-production-9dbc.up.railway.app/api/loginUser`,
       formData,
       {
         headers: {
@@ -25,7 +25,7 @@ export async function loginUser(formData) {
 export async function saveOPD(formData) {
   try {
     const response = await axios.post(
-      `${backendUrl}/api/saveOPD`,
+      `https://pharma-production-9dbc.up.railway.app/api/saveOPD`,
       formData,
       {
         headers: {
@@ -45,7 +45,7 @@ export async function saveOPD(formData) {
 export async function saveBMDCamp(formData) {
   try {
     const response = await axios.post(
-      `${backendUrl}/api/saveBMDCamp`,
+      `https://pharma-production-9dbc.up.railway.app/api/saveBMDCamp`,
       formData,
       {
         headers: {
@@ -65,7 +65,7 @@ export async function saveBMDCamp(formData) {
 export async function saveRX(formData) {
   try {
     const response = await axios.post(
-      `${backendUrl}/api/saveRX`,
+      `https://pharma-production-9dbc.up.railway.app/api/saveRX`,
       formData
     );
 
@@ -79,7 +79,7 @@ export async function saveRX(formData) {
 export async function saveBirthday(formData) {
   try {
     const response = await axios.post(
-      `${backendUrl}/api/saveBirthday`,
+      `https://pharma-production-9dbc.up.railway.app/api/saveBirthday`,
       formData
     );
     return response.data;
@@ -91,7 +91,7 @@ export async function saveBirthday(formData) {
 export async function saveThankyou(formData) {
   try {
     const response = await axios.post(
-      `${backendUrl}/api/saveThankyou`,
+      `https://pharma-production-9dbc.up.railway.app/api/saveThankyou`,
       formData
     );
     return response.data;
@@ -104,7 +104,7 @@ export async function saveThankyou(formData) {
 export async function savePOB(formData) {
   try {
     const response = await axios.post(
-      `${backendUrl}/api/savePOB`,
+      `https://pharma-production-9dbc.up.railway.app/api/savePOB`,
       formData
     );
     return response.data;
@@ -116,7 +116,7 @@ export async function savePOB(formData) {
 export async function downloadReportExcel(data) {
   try {
     const response = await axios.post(
-      `${backendUrl}/api/downloadReportExcel`,
+      `https://pharma-production-9dbc.up.railway.app/api/downloadReportExcel`,
       data,
       { responseType: "blob" }
     );
